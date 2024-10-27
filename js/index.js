@@ -1,4 +1,4 @@
-  const passwordXdef = "contraseña123";
+  const passwordXdef = "Alex123";
 
   // Evento para validar el formulario al enviarlo
   document.getElementById("loginForm").addEventListener("submit", function(event) {

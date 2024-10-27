@@ -25,3 +25,15 @@
     const modal = bootstrap.Modal.getInstance(document.getElementById('newItemModal'));
     modal.hide();
   }
+  //validación de formulario 
+  document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('newItemForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Evita el envío normal del formulario
+        if (this.checkValidity()) {
+            addItem(); 
+        } else {
+            //errores de vali
+            this.classList.add('was-validated');
+        }
+    });
+});
