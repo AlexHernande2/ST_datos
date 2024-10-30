@@ -1,0 +1,160 @@
+[{
+  "_id": 1,
+  "asunto": "Registro inicial",
+  "estado": "generado",
+  "seguimiento": {
+    "fecha_generacion": {
+      "$date": "2024-10-01T00:00:00.000Z"
+    },
+    "archivo_evidencia": "ruta/evidencia1.pdf",
+    "usuario_generado": {
+      "id": "usr001",
+      "nombre": "Carlos Martínez",
+      "correo": "carlos.martinez@example.com"
+    }
+  }
+},
+{
+  "_id": 2,
+  "asunto": "Proceso de revisión",
+  "estado": "con evidencia",
+  "seguimiento": {
+    "fecha_generacion": {
+      "$date": "2024-10-05T00:00:00.000Z"
+    },
+    "archivo_evidencia": "ruta/evidencia2.pdf",
+    "usuario_generado": {
+      "id": "usr002",
+      "nombre": "Ana Gómez",
+      "correo": "ana.gomez@example.com"
+    }
+  }
+},
+{
+  "_id": 3,
+  "asunto": "Actualización de documentos",
+  "estado": "generado",
+  "seguimiento": {
+    "fecha_generacion": {
+      "$date": "2024-10-08T00:00:00.000Z"
+    },
+    "archivo_evidencia": "ruta/evidencia3.pdf",
+    "usuario_generado": {
+      "id": "usr003",
+      "nombre": "Luis Fernández",
+      "correo": "luis.fernandez@example.com"
+    }
+  }
+},
+{
+  "_id": 4,
+  "asunto": "Aprobación inicial",
+  "estado": "con evidencia",
+  "seguimiento": {
+    "fecha_generacion": {
+      "$date": "2024-10-10T00:00:00.000Z"
+    },
+    "archivo_evidencia": "ruta/evidencia4.pdf",
+    "usuario_generado": {
+      "id": "usr004",
+      "nombre": "María López",
+      "correo": "maria.lopez@example.com"
+    }
+  }
+},
+{
+  "_id": 5,
+  "asunto": "Verificación final",
+  "estado": "generado",
+  "seguimiento": {
+    "fecha_generacion": {
+      "$date": "2024-10-12T00:00:00.000Z"
+    },
+    "archivo_evidencia": "ruta/evidencia5.pdf",
+    "usuario_generado": {
+      "id": "usr005",
+      "nombre": "Jorge Ramírez",
+      "correo": "jorge.ramirez@example.com"
+    }
+  }
+},
+{
+  "_id": 6,
+  "asunto": "Documentación de soporte",
+  "estado": "con evidencia",
+  "seguimiento": {
+    "fecha_generacion": {
+      "$date": "2024-10-15T00:00:00.000Z"
+    },
+    "archivo_evidencia": "ruta/evidencia6.pdf",
+    "usuario_generado": {
+      "id": "usr006",
+      "nombre": "Laura González",
+      "correo": "laura.gonzalez@example.com"
+    }
+  }
+},
+{
+  "_id": 7,
+  "asunto": "Informe de actividades",
+  "estado": "generado",
+  "seguimiento": {
+    "fecha_generacion": {
+      "$date": "2024-10-18T00:00:00.000Z"
+    },
+    "archivo_evidencia": "ruta/evidencia7.pdf",
+    "usuario_generado": {
+      "id": "usr007",
+      "nombre": "Pablo Torres",
+      "correo": "pablo.torres@example.com"
+    }
+  }
+},
+{
+  "_id": 8,
+  "asunto": "Evaluación de desempeño",
+  "estado": "con evidencia",
+  "seguimiento": {
+    "fecha_generacion": {
+      "$date": "2024-10-20T00:00:00.000Z"
+    },
+    "archivo_evidencia": "ruta/evidencia8.pdf",
+    "usuario_generado": {
+      "id": "usr008",
+      "nombre": "Elena Ruiz",
+      "correo": "elena.ruiz@example.com"
+    }
+  }
+},
+{
+  "_id": 9,
+  "asunto": "Actualización del plan",
+  "estado": "generado",
+  "seguimiento": {
+    "fecha_generacion": {
+      "$date": "2024-10-22T00:00:00.000Z"
+    },
+    "archivo_evidencia": "ruta/evidencia9.pdf",
+    "usuario_generado": {
+      "id": "usr009",
+      "nombre": "Gabriel Díaz",
+      "correo": "gabriel.diaz@example.com"
+    }
+  }
+},
+{
+  "_id": 10,
+  "asunto": "Cierre de proyecto",
+  "estado": "con evidencia",
+  "seguimiento": {
+    "fecha_generacion": {
+      "$date": "2024-10-25T00:00:00.000Z"
+    },
+    "archivo_evidencia": "ruta/evidencia10.pdf",
+    "usuario_generado": {
+      "id": "usr010",
+      "nombre": "Sofía Moreno",
+      "correo": "sofia.moreno@example.com"
+    }
+  }
+}]
