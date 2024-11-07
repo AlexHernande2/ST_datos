@@ -141,20 +141,4 @@
       "correo": "gabriel.diaz@example.com"
     }
   }
-},
-{
-  "_id": 10,
-  "asunto": "Cierre de proyecto",
-  "estado": "con evidencia",
-  "seguimiento": {
-    "fecha_generacion": {
-      "$date": "2024-10-25T00:00:00.000Z"
-    },
-    "archivo_evidencia": "ruta/evidencia10.pdf",
-    "usuario_generado": {
-      "id": "usr010",
-      "nombre": "Sofía Moreno",
-      "correo": "sofia.moreno@example.com"
-    }
-  }
 }]
