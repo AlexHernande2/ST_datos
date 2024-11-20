@@ -1,5 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
+//
+const emailHelper = require("./helper/emailHelper");
+//
 const cors = require('cors');
 // Si tu servidor está en una carpeta superior a `backend`
 
@@ -54,4 +57,25 @@ app.get('/items', async (req, res) => {
       console.error(error);
       res.status(500).json({ message: 'Error al obtener los items' });
   }
+});
+
+// correo
+// Middleware
+app.use(express.json());
+
+// Routes
+app.post("/send-email", async (req, res) => {
+  const { to, subject, text } = req.body;
+
+  try {
+    let info = await emailHelper(to, subject, text);
+    res.status(200).send(`Email sent: ${info.response}`);
+  } catch (error) {
+    res.status(500).send("Error sending email");
+  }
+});
+
+// Start the server
+app.listen(3000, () => {
+  console.log(`Server is running on http://localhost:3000`);
 });
